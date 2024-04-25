@@ -1,0 +1,20 @@
+.contenedor{
+    background-color: blue;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.sidebar{
+    flex: 0 0 15%;
+    width: 100px;
+    height: 100vh;
+    background-color: #6c64f4;
+}
+
+.contenido{
+    flex: 0 0 85%;
+    width: 100px;
+    height: 100vh;
+    background-color: rgba(238, 238, 238, 0.897);
+}

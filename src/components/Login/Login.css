@@ -1,0 +1,28 @@
+.contenedor-login{
+    background-color: brown;
+    width: 500px;
+    height: 350px;
+}
+
+.modal-title{
+    padding: 10px;
+    flex: 0 0 15%;
+    background-color: #000000;
+    text-align: center;
+    color: white;
+  }
+  
+  .modal-content{
+    flex: 0 0 70%;
+    padding: 10px;
+  }
+  
+  .modal-item{
+    flex: 0 0 calc(50% - 20px);
+  }
+  
+  .modal-btn{
+    margin-right: 10px;
+    max-height: 40px;
+    margin: 10px;
+  }
