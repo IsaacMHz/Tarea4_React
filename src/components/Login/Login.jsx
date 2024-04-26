@@ -57,11 +57,9 @@ export const Login = () => {
                     />
                 </div>
 
-                <div className='modal-item'>
-                </div>
-
                 <div className='modal-item d-flex justify-content-end align-items-end'>
                     <button className='modal-btn btn btn-danger' onClick={closeModal}>Cancelar</button>
+                    <button className='modal-btn btn btn-primary' onClick={closeModal}>Guardar</button>
                 </div>
 
             </div>

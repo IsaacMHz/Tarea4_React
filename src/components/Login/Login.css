@@ -1,9 +1,3 @@
-.contenedor-login{
-    background-color: brown;
-    width: 500px;
-    height: 350px;
-}
-
 .modal-title{
     padding: 10px;
     flex: 0 0 15%;
@@ -22,7 +16,6 @@
   }
   
   .modal-btn{
-    margin-right: 10px;
     max-height: 40px;
     margin: 10px;
   }
