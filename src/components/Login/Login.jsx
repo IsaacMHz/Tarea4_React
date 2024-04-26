@@ -4,7 +4,7 @@ import Modal from 'react-modal';
 
 export const Login = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
-  const [password, setPassword] = useState(''); // Estado para el valor del input de contraseña
+  const [password, setPassword] = useState(''); 
 
   const openModal = () => setModalIsOpen(true);
   const closeModal = () => setModalIsOpen(false);
@@ -21,11 +21,11 @@ export const Login = () => {
   };
 
   useEffect(() => {
-    openModal(); // Abre el modal al inicializar la ventana
-  }, []); // [] como segundo argumento para asegurar que solo se ejecute una vez al montar el componente
+    openModal(); 
+  }, []); 
 
   const handlePasswordChange = (event) => {
-    setPassword(event.target.value); // Actualiza el estado de la contraseña cuando el usuario escribe en el input
+    setPassword(event.target.value);
   }
 
   return (
@@ -47,22 +47,20 @@ export const Login = () => {
                     <input 
                     className='form-control'
                     type="text"
-                    value={password} // Asocia el valor del input al estado de la contraseña
-                    onChange={handlePasswordChange} // Maneja el cambio en el input de contraseña
+                    onChange={handlePasswordChange} 
                     />
                     <label>Contraseña</label>
                     <input 
                     className='form-control'
                     type="password"
-                    value={password} // Asocia el valor del input al estado de la contraseña
-                    onChange={handlePasswordChange} // Maneja el cambio en el input de contraseña
+                    onChange={handlePasswordChange} 
                     />
                 </div>
 
                 <div className='modal-item'>
                 </div>
 
-                <div className='modal item d-flex justify-content-end align-items-end'>
+                <div className='modal-item d-flex justify-content-end align-items-end'>
                     <button className='modal-btn btn btn-danger' onClick={closeModal}>Cancelar</button>
                 </div>
 
